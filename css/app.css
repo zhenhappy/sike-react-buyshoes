@@ -1,0 +1,17 @@
+@import "normalize.css";
+@import "common.css";
+
+.site {
+  flex-direction: row;
+  height: 100vh;
+}
+
+.site .site__main {
+  background-color: #ffb6c1;
+  width: 70%;
+}
+
+.site .site__right-sidebar {
+  background-color: #00ff00;
+  width: 30%;
+}
