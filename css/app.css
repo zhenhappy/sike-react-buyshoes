@@ -52,3 +52,19 @@
   flex-basis: auto;
   flex-grow: 0;
 }
+
+.cart__content {
+  overflow: scroll;
+  height: 60vh;
+}
+
+.cart-item {
+  height: 150px;
+  margin-bottom: 20px;
+  background: rgba(0,255,0,0.3);
+}
+
+.checkout {
+  height: 300px;
+  background: rgba(0,0,255,0.3);
+}
