@@ -7,11 +7,34 @@
 }
 
 .site .site__main {
-  background-color: #ffb6c1;
+  flex-direction: row;
   width: 70%;
 }
 
-.site .site__right-sidebar {
+.site .site__main .site__left-sidebar {
   background-color: #00ff00;
+  flex-basis: auto;
+  flex-grow: 0;
+}
+
+.site .site__main .site__content {
+  background-color: #ffb6c1;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.site .site__right-sidebar {
   width: 30%;
+}
+
+.site .site__right-sidebar .cart {
+  background-color: #ffb6c1;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.site .site__right-sidebar .checkout {
+  background-color: #00ff00;
+  flex-basis: auto;
+  flex-grow: 0;
 }
