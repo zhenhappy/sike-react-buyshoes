@@ -503,11 +503,10 @@ a {
 }
 
 .site .site__main .site__left-sidebar {
-
+  width: 170px;
+  position: fixed;
   -webkit-flex-basis: auto;
-
       -ms-flex-preferred-size: auto;
-
           flex-basis: auto;
   -webkit-box-flex: 0;
   -webkit-flex-grow: 0;
@@ -524,6 +523,7 @@ a {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  margin-left: 170px;
 }
 
 .site .site__main .site__content .products {
@@ -545,7 +545,9 @@ a {
 }
 
 .site .site__right-sidebar {
+  position: fixed;
   width: 30%;
+  height: 100vh;
 }
 
 .site .site__right-sidebar .cart {

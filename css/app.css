@@ -12,7 +12,8 @@
 }
 
 .site .site__main .site__left-sidebar {
-
+  width: 170px;
+  position: fixed;
   flex-basis: auto;
   flex-grow: 0;
 }
@@ -21,6 +22,7 @@
   background-color: #ffb6c1;
   flex-basis: auto;
   flex-grow: 1;
+  margin-left: 170px;
 }
 
 .site .site__main .site__content .products {
@@ -36,7 +38,9 @@
 }
 
 .site .site__right-sidebar {
+  position: fixed;
   width: 30%;
+  height: 100vh;
 }
 
 .site .site__right-sidebar .cart {
